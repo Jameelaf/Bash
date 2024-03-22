@@ -66,7 +66,7 @@ Testing Response to Attacks: Penetration testing involves simulating real-world 
 
          Result: I did DoS testing using hping3. It appears that the target system did not respond to any of the packets which was sent by hping3, resulting in 100% packet loss. While this may indicate that the target system did not experience any disruption or impact from the packets sent by hping3, it's essential to interpret these results carefully.
 
-Here are a few possible explanations for the lack of response from the target system:
+Here are a few possible explanations for the lack of response from the target system
 
 Firewall or Network Filtering: The target system may have firewall rules or network filtering in place that block or filter incoming packets. This could prevent hping3 from reaching the target or receiving a response.
 Service Availability: The target system may not have the specified service (port 43) open or listening for connections. As a result, it did not respond to the packets sent by hping3.
